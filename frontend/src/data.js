@@ -1,0 +1,73 @@
+const data ={
+    produtos:[
+        {
+            _id:'1',
+            nome:'Nike Slim Shirt',
+            categoria:'Shirts',
+            imagem:'/images/p1.jpg',
+            preco:120,
+            marca: 'Nike',
+            avaliacao:4.8,
+            numbAvaliacoesl:10,
+            descricao:'Produto de alta qualidade',
+        },
+        {
+            _id:'2',
+            nome:'Adidas fit Shirt',
+            categoria:'Shirts',
+            imagem:'/images/p2.jpg',
+            preco:100,
+            marca: 'Adidas',
+            avaliacao:4.8,
+            numbAvaliacoesl:10,
+            descricao:'Produto de alta qualidade',
+        },
+        {
+            _id:'3',
+            nome:'Lacoste Free Shirt',
+            categoria:'Shirts',
+            imagem:'/images/p3.jpg',
+            preco:220,
+            marca: 'Nike',
+            avaliacao:4.8,
+            numbAvaliacoesl:17,
+            descricao:'Produto de alta qualidade',
+        },
+        {
+            _id:'4',
+            nome:'Nike Slim pant',
+            categoria:'pants',
+            imagem:'/images/p4.jpg',
+            preco:78,
+            marca: 'Nike',
+            avaliacao:4.5,
+            numbAvaliacoesl:14,
+            descricao:'Produto de alta qualidade',
+        },
+        {
+            _id:'5',
+            nome:'Puma Slim Pant',
+            categoria:'Pants',
+            imagem:'/images/p5.jpg',
+            preco:65,
+            marca: 'Puma',
+            avaliacao:4.5,
+            numbAvaliacoesl:10,
+            descricao:'Produto de alta qualidade',
+        },
+        {
+            _id:'6',
+            nome:'Adidas Slim Pant',
+            categoria:'Pants',
+            imagem:'/images/p6.jpg',
+            preco:139,
+            marca: 'Adidas',
+            avaliacao:4.5,
+            numbAvaliacoesl:15,
+            descricao:'Produto de alta qualidade',
+        },
+
+    ]
+}
+
+export default data;
