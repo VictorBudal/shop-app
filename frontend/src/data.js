@@ -8,7 +8,7 @@ const data ={
             preco:120,
             marca: 'Nike',
             avaliacao:4.8,
-            numbAvaliacoesl:10,
+            numbAvaliacoes:10,
             descricao:'Produto de alta qualidade',
         },
         {
@@ -18,8 +18,8 @@ const data ={
             imagem:'/images/p2.jpg',
             preco:100,
             marca: 'Adidas',
-            avaliacao:4.8,
-            numbAvaliacoesl:10,
+            avaliacao:3.5,
+            numbAvaliacoes:10,
             descricao:'Produto de alta qualidade',
         },
         {
@@ -30,7 +30,7 @@ const data ={
             preco:220,
             marca: 'Nike',
             avaliacao:4.8,
-            numbAvaliacoesl:17,
+            numbAvaliacoes:17,
             descricao:'Produto de alta qualidade',
         },
         {
@@ -41,7 +41,7 @@ const data ={
             preco:78,
             marca: 'Nike',
             avaliacao:4.5,
-            numbAvaliacoesl:14,
+            numbAvaliacoes:14,
             descricao:'Produto de alta qualidade',
         },
         {
@@ -52,7 +52,7 @@ const data ={
             preco:65,
             marca: 'Puma',
             avaliacao:4.5,
-            numbAvaliacoesl:10,
+            numbAvaliacoes:10,
             descricao:'Produto de alta qualidade',
         },
         {
@@ -63,7 +63,7 @@ const data ={
             preco:139,
             marca: 'Adidas',
             avaliacao:4.5,
-            numbAvaliacoesl:15,
+            numbAvaliacoes:15,
             descricao:'Produto de alta qualidade',
         },
 

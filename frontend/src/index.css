@@ -82,8 +82,8 @@ a.marca{
 }
 img{
     border-radius: 0.5rem;
-    width:200;
-    height:200px;
+    width:250px;
+    height:250px;
 }
 img .media{
     max-width:29rem;
@@ -112,4 +112,8 @@ img .media{
 .avaliacao span{
     color:#f0c040;
     margin: 0.5rem;
+}
+
+.avaliacao span:last-child{
+    color:#404040;
 }
