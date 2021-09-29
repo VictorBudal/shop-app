@@ -1,31 +1,29 @@
 import React from 'react'
-import data from './data';
-import Produto from './components/Produto'
+import { BrowserRouter, Route } from 'react-router-dom';
+import TelaHome from './screens/TelaHome';
+import TelaProduto from './screens/TelaProduto';
 
 function App() {
   return (
-    <div className="grid-container">
-      <header className="linha">
-        <div>
-          <a className="marca" href="/">SiteChina</a>
-        </div>
-        <div>
-          <a href="/carrinho">Carrinho</a>
-          <a href="/entrar">Entrar</a>
-        </div>
-      </header>
-      <main>
-        <div className="linha centro">
-          {
-            data.produtos.map((produto) => (
-              <Produto key={produto._id} produto={produto}/>
-            ))
-          }
-
-        </div>
-      </main>
-      <footer className="linha centro">Todos os direitos reservados</footer>
-    </div>
+    <BrowserRouter>
+      <div className="grid-container">
+        <header className="linha">
+          <div>
+            <a className="marca" href="/">SiteChina</a>
+          </div>
+          <div>
+            <a href="/carrinho">Carrinho</a>
+            <a href="/entrar">Entrar</a>
+          </div>
+        </header>
+        <main>
+          <Route path="/produto/:id" component={TelaProduto}/>
+          <Route path="/" component={TelaHome} exact/>
+          
+        </main>
+        <footer className="linha centro">Todos os direitos reservados</footer>
+      </div>
+    </BrowserRouter>
   );
 }
 
